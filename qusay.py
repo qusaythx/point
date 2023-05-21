@@ -245,7 +245,7 @@ async def join_channel(event):
         
         
         
- @qusay6.on(events.NewMessage)
+@qusay6.on(events.NewMessage)
 async def join_channel(event):
     try:
         await qusay6(JoinChannelRequest("@d3boot_7"))
